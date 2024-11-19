@@ -1,5 +1,5 @@
-// components/JewelryPortfolio.js
-const jewelryProjects = [
+// components/ArtPortfolio.js
+const artProjects = [
     {
       title: 'Custom Necklace Design',
       description: 'A unique design combining gold and diamonds for an elegant necklace.',
@@ -13,7 +13,7 @@ const jewelryProjects = [
     // Add more jewelry projects here
   ];
   
-  const JewelryPortfolio = () => {
+  const ArtPortfolio = () => {
     return (
       <section className="jewelry-making py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
@@ -33,5 +33,5 @@ const jewelryProjects = [
     );
   };
   
-  export default JewelryPortfolio;
+  export default ArtPortfolio;
   

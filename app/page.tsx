@@ -2,7 +2,7 @@
 import Header from '../components/Header';
 import HomeScreen from '../components/HomeScreen';
 import GraphicDesignPortfolio from '../components/GraphicDesignPortfolio';
-import JewelryPortfolio from '../components/JewelryPortfolio';
+import ArtPortfolio from '../components/ArtPortfolio';
 import NMC from '../components/NMC';
 import Footer from '../components/Footer';
 
@@ -12,7 +12,7 @@ const HomePage = () => {
       <Header />
       <HomeScreen/>
       <GraphicDesignPortfolio/>
-      <JewelryPortfolio/>
+      <ArtPortfolio/>
       <NMC/>
       <Footer />
     </div>
