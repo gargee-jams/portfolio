@@ -20,7 +20,7 @@ const artProjects = [
           <h2 className="text-4xl font-bold text-center text-gray-800 mb-10">Jewelry Making</h2>
   
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            {jewelryProjects.map((project, index) => (
+            {artProjects.map((project, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img src={project.imageUrl} alt={project.title} className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-xl font-semibold text-gray-800">{project.title}</h3>
