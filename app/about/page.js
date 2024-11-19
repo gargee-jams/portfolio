@@ -32,7 +32,7 @@ const About = () => {
       {/* Paragraph with some information */}
       <section className="text-center space-y-4">
         <p className="text-xl text-gray-700">
-          Hi there! I&#39m a passionate developer and designer with a love for creating unique and functional web applications.
+          Hi there! I&#39;m a passionate developer and designer with a love for creating unique and functional web applications.
           I graduated with a degree in Computer Science and have worked on various creative projects, ranging from web development to graphic design.
         </p>
       </section>
