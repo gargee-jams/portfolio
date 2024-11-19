@@ -15,7 +15,7 @@ const HeroSection = () => {
               Welcome to My Creative Portfolio
             </h1>
             <p className="text-xl md:text-2xl text-white mb-6">
-              "Your Tagline Here"
+              &#34;Your Tagline Here&#34;
             </p>
             <a href="#about" className="bg-indigo-700 text-white px-6 py-3 rounded-lg shadow-md hover:bg-indigo-600">
               Learn More
