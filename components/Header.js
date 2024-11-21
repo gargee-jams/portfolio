@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <header className="bg-blue-600 text-white p-4">
+    <header className="bg-black-600 text-black p-4">
       <nav>
         <ul className="flex space-x-4">
           <li>
@@ -17,7 +17,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link href="/projects" className="hover:text-gray-300">
+            <Link href="/portfolios" className="hover:text-gray-300">
               Projects
             </Link>
           </li>

@@ -1,26 +1,8 @@
-import type { Config } from "tailwindcss";
-
-export default {
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
-  theme: {
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
-    },
-  },
-  plugins: [],
-} satisfies Config;
-// tailwind.config.js
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -39,6 +21,18 @@ module.exports = {
             backgroundPosition: "0% 50%",
           },
         },
+      },
+      fontFamily: {
+        trench: ['"Trench Slab"', 'serif'],
+      },
+      colors: {
+        'C5D5EA': '#C5D5EA',
+        '759EB8': '#759EB8',
+        '7392B7': '#7392B7',
+        'B3C5D7': '#B3C5D7',
+        'D8E1E9': '#D8E1E9',
+        background: "var(--background)",
+        foreground: "var(--foreground)",
       },
     },
   },

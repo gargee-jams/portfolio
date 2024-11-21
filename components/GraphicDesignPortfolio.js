@@ -19,7 +19,7 @@ const graphicDesignProjects = [
     return (
       <section className="graphic-design py-16 bg-gray-100">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center text-gray-800 mb-10">Graphic Design</h2>
+          <h2 className="text-4xl font-bold text-center text-gray-800 mb-10">Design Portfolio</h2>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {graphicDesignProjects.map((project, index) => (
