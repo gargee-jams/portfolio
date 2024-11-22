@@ -1,6 +1,6 @@
 // pages/contact.js
 "use client";
-import React, { useState } from 'react';
+import React from 'react';
 import Header from '/components/Header'
 import GraphicDesignPortfolio from  '/components/GraphicDesignPortfolio'
 import ArtPortfolio from '/components/ArtPortfolio';
